@@ -6,8 +6,8 @@
 #let header-height = 7.3245in
 
 #set page(
-  paper: "arch-e",
-  flipped: true,
+  height: 36in,
+  width: 48in,
   margin: (rest: .5in),
 )
 
@@ -95,7 +95,7 @@
   column-gutter: 2em,
   [
     #panel(title: "Abstract")[
-      AI-assisted grading is growing rapidly across higher education. Existing research focuses almost entirely on grader accuracy and student perceptions of fairness. No research examines whether students write differently when they believe an AI is evaluating them.
+      AI-assisted grading is growing rapidly across higher education. Existing research focuses almost entirely on grader accuracy and student perceptions of fairness. No research examines whether students write differently when they believe an AI is evaluating them. In this study we test whether the identity of who is going to rate work will change the work done.  We aim to have a total sample size of 130 students who complete an essay either expecting to be graded by a human or AI. Our results will have implications for the the design of pedagogical assessments and student learning. 
     ]
     #panel(title: "Introduction")[
       Large language models (LLMs) are rapidly reshaping education, with students using them for writing and institutions using them for grading. This study investigates whether knowing an AI will grade their work changes how students write, raising concerns that AI grading could unintentionally influence student writing styles. No study has examined this.
@@ -104,8 +104,8 @@
       
       The Computers Are Social Actors model (CASA) states that humans unconsciously apply social rules and heuristics to computers in the same way they would to another person. This suggests an AI grader would register not as a passive evaluator but as a distinct kind of reader, potentially triggering the same audience-adjustment behavior seen in writing research.      
     ]
-     #panel(title: "Methods")[
-      Participants (N=50) were randomly assigned to two groups and asked to write a 300 word short essay. Each group was provided a rubric and was told that their response would be evaluated by either an "AI grading system" or a "research teaching assistant" as part of the studies procedure. Scales including AIAS-4 were used at the end to evaluate attitudes towards AI and AI grading systems.
+     #panel(title: "Method")[
+      We randomly assigned participants to two groups and asked to write a 300 word short essay. Each group was provided a rubric and was told that their response would be evaluated by either an "AI grading system" or a "research teaching assistant" as part of the studies procedure. Scales including AIAS-4 were used at the end to evaluate attitudes towards AI and AI grading systems.
       
       Text responses were analyzed using Empath (Fast et al., 2016), an open-source text analysis tool that categorizes language across approximately 200 lexical categories, functioning similarly to LIWC (Pennebaker et al., 2015). Empath was used to generate category scores for each essay across dimensions relevant to audience-aware writing, including social language, hedging, positive and negative emotion, certainty, and politeness. Mean category scores were then compared between the AI and human grader conditions to identify differences in linguistic style.
       
@@ -114,8 +114,8 @@
   ],
   [
     #v(1em)
-      #panel(title: "Methods Continued")[       
-      Essays were scored independently by two human raters using the provided rubric. Additionally, essays were evaluated using AI grading tools both with and without the rubric provided as scoring criteria, allowing for comparison of human and AI scoring consistency.
+      #panel(title: "Method Continued")[       
+      Essays were scored independently by two human raters using the provided rubric. Additionally, essays were evaluated using AI grading tools both with and without the rubric provided as scoring criteria, allowing for comparison of human and AI scoring consistency.  Data collection is currently in progress and we expect to have our complete sample by the end of the term.
     ]
       #panel()[
   #grid(
@@ -163,28 +163,29 @@
   )
 ]
     #panel(title: "Expected Outcomes")[
-      I expect to see a match effect where essays score higher when the grader matches the intended audience. Specifically, essays written for the human evaluator are expected to contain more personal and social language. I believe these are qualities human raters tend to reward. (CITE) Essays written for the AI grader are expected to be more rigid and rubric-adherent, aligning with the structured evaluation style students may associate with AI.
+      We did not analyze preliminary data. When data collection is complete, we expect to see a match effect where essays score higher when the grader matches the intended audience. Specifically, essays written for the human evaluator are expected to contain more personal and social language. We believe these are qualities human raters tend to reward. (CITE) Essays written for the AI grader are expected to be more rigid and rubric-adherent, aligning with the structured evaluation style students may associate with AI.
       
-      Furthermore, I expect participants with negative AIAS-4 scores who received the AI grader prompt to produce essays that score lower with AI graders but higher with human raters, compared to those with positive AIAS-4 scores in the same condition. I predict negative attitudes toward AI may reduce a writer's willingness to adjust their style for an AI audience.
+      Furthermore, we expect participants with negative AIAS-4 scores who received the AI grader prompt to produce essays that score lower with AI graders but higher with human raters, compared to those with positive AIAS-4 scores in the same condition. We predict negative attitudes toward AI may reduce a writer's willingness to adjust their style for an AI audience.
       
-      I expect lexical categories related to social and interpersonal language such as politeness, affection, and positive emotion to show the largest differences between conditions.
-      Overall, I expect the human grader group to produce higher quality essays, as writing for a human audience may generate stronger intrinsic motivation to engage meaningfully with the task.
+     We expect lexical categories related to social and interpersonal language such as politeness, affection, and positive emotion to show the largest differences between conditions.
+      Overall, we expect the human grader group to produce higher quality essays, as writing for a human audience may generate stronger intrinsic motivation to engage meaningfully with the task.
     ]
     #panel(title: "Implications")[
+      There are many studies of student and faculty perception of AI usage and while most classes forbid the use of AI for assignments, national survey results suggest many students use AI (Freeman, 2025). The extent to which students use AI and how it influences their learning may depend on many factors but students may write differently if they think AI will grade them.
+      
       If students write differently based on who they think is grading, then AI grading is not a neutral substitute for human evaluation. It would become an active influence on how students learn to write. Widespread adoption could push student writing toward an unoriginal, rubric-optimized style at the expense of individual voice and rhetorical engagement. As AI becomes more prevalent across communication contexts, the ability to write with a distinct and authentic voice may become increasingly valuable, making this a concern worth systematic investigation.  
     ]
   ],
   [
     
     #panel(title: "Limitations")[
-      Small sample size (N=50) and the online survey format draws many limitations. We are unable to control for surrounding environment during the writing task due to being online, and participants could take the writing task less seriously. Furthermore, 300 word responses may not be enough information to glean meaningful differences in writing style. Empath is counting word categories across only 300 words per essay, a pretty small text sample for lexical analysis to produce reliable category scores. 
+      If we do not hit our expected sample size we run the risk of bein underpowered. A small sample size and the online survey format draws many limitations. We are unable to control for surrounding environment during the writing task due to being online, and participants could take the writing task less seriously. Furthermore, 300 word responses may not be enough information to glean meaningful differences in writing style. Empath is counting word categories across only 300 words per essay, a pretty small text sample for lexical analysis to produce reliable category scores. 
       
       Participants were explicitly told who their grader was, which may not reflect real classroom settings where students are not always aware whether their work is evaluated by a human or an AI. Lastly, participants were explicitly told who their grader was in a low-stakes survey context, which may not reflect real classroom settings where grading outcomes carry meaningful consequences and students are not always aware whether their work is evaluated by a human or an AI.
     ]
     #panel(title: "Future Directions")[
       Replicating this study in a classroom setting with real grading stakes would be the natural next step. 
       Having a larger sample size and larger essay length or multiple essays throughout a term could help determine long term effects of an atypical grader identity. Modifying the manipulation so that students naturally discover their grader's identity could also produce different results. When the stakes are real grades, we would expect that opinions on AI grading would be far more polarized than what's represented by the AIAS-4.       
-      
       A more modern text analysis approach could capture nuances in tone and rhetorical strategy that Empath's category-based scoring may miss.
     ]
     #panel(title: "Conclusion")[
