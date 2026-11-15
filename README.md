@@ -11,6 +11,8 @@ Poster is written using [typst](https://typst.app/).
 
 OSU Fonts are required for proper generation. You can find them through the [OSU Branding page](https://communications.oregonstate.edu/brand-guide/typography)
 
+`logo.png` is the OSU logo, found at the [OSU Logo Guideline](https://communications.oregonstate.edu/brand-guide/logo-guidelines).
+
 ```bash
 # compile to pdf
 typst compile main.typ
